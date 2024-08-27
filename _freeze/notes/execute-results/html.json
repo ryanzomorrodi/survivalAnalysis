@@ -1,9 +1,11 @@
 {
-  "hash": "4efa41395f8739b0933643654ec2c872",
+  "hash": "324cd3859c98df19ce66244f24e1f5b9",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Notes\"\nformat:\n  dashboard:\n    orientation: columns\n    css: styles.css\nengine: knitr\n---\n\n\n\n\n# Intro\n\n**Survival analysis** is a collection of statistical procedures where the outcome variable is time to a well-defined event.\n\n### Concerns\n\n#### Censoring\n\n####  \n\nLet $T$ denote the time to event.\n\n$$\nF(t) = P(T \\le t)\n$$\n\nIt is often more convenient to work with the survival analysis function defined as",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Notes\"\nengine: knitr\n---\n\n\n\n\n## Basic Definitions\n\n**Survival analysis** - a collection of statistical procedures where the outcome variable is time to a well-defined event.\n\n**Time to event** $T$\n\n**Distribution of time to event** $F(t)$\n\n$F(t) = P(T \\le t)$\n\n**Density of this distribution** $f(t)$\n\n$f(t) = \\frac{d F(t)}{d t}$\n\n**Survival function** $S(t)$ - the probability of surviving\n\n$S(t) = P(T > t) = 1 - F(t)$\n\n**Hazard density** $h(t)$ - the rate of failure probability change at time $t$ given that the subject has not failed at time $t$.\n\n$h(t) = \\frac{f(t)}{S(t)}$\n\n**Cumulative hazard** - the accumulated risk of experiencing the event of interest at time $t$\n\n$H(t) = \\int^t_0 h(t) dt = -\\log S(t)$\n\n## Complications\n\n**Censoring** - when not all participants experience the event during the study period\n\n-   **Right censoring** - participants were not followed long enough to see the event\n\n-   **Left censoring** - event is known to have occurred before the study period\n\n-   **Interval censoring** - event is known to occur in an inexact time interval\n\n**Truncation** - subject selection depending on whether or not the event has occurred\n\n-   **Left truncation** - event is not known to have occurred before the study\n\n-   Right truncation - participants who experience the event are selectively included",
+    "supporting": [
+      "notes_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

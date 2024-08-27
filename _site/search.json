@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Survival analysis - a collection of statistical procedures where the outcome variable is time to a well-defined event.\nTime to event \\(T\\)\nDistribution of time to event \\(F(t)\\)\n\\(F(t) = P(T \\le t)\\)\nDensity of this distribution \\(f(t)\\)\n\\(f(t) = \\frac{d F(t)}{d t}\\)\nSurvival function \\(S(t)\\) - the probability of surviving\n\\(S(t) = P(T &gt; t) = 1 - F(t)\\)\nHazard density \\(h(t)\\) - the rate of failure probability change at time \\(t\\) given that the subject has not failed at time \\(t\\).\n\\(h(t) = \\frac{f(t)}{S(t)}\\)\nCumulative hazard - the accumulated risk of experiencing the event of interest at time \\(t\\)\n\\(H(t) = \\int^t_0 h(t) dt = -\\log S(t)\\)"
+  },
+  {
+    "objectID": "notes.html#basic-definitions",
+    "href": "notes.html#basic-definitions",
+    "title": "Notes",
+    "section": "",
+    "text": "Survival analysis - a collection of statistical procedures where the outcome variable is time to a well-defined event.\nTime to event \\(T\\)\nDistribution of time to event \\(F(t)\\)\n\\(F(t) = P(T \\le t)\\)\nDensity of this distribution \\(f(t)\\)\n\\(f(t) = \\frac{d F(t)}{d t}\\)\nSurvival function \\(S(t)\\) - the probability of surviving\n\\(S(t) = P(T &gt; t) = 1 - F(t)\\)\nHazard density \\(h(t)\\) - the rate of failure probability change at time \\(t\\) given that the subject has not failed at time \\(t\\).\n\\(h(t) = \\frac{f(t)}{S(t)}\\)\nCumulative hazard - the accumulated risk of experiencing the event of interest at time \\(t\\)\n\\(H(t) = \\int^t_0 h(t) dt = -\\log S(t)\\)"
+  },
+  {
+    "objectID": "notes.html#complications",
+    "href": "notes.html#complications",
+    "title": "Notes",
+    "section": "Complications",
+    "text": "Complications\nCensoring - when not all participants experience the event during the study period\n\nRight censoring - participants were not followed long enough to see the event\nLeft censoring - event is known to have occurred before the study period\nInterval censoring - event is known to occur in an inexact time interval\n\nTruncation - subject selection depending on whether or not the event has occurred\n\nLeft truncation - event is not known to have occurred before the study\nRight truncation - participants who experience the event are selectively included"
+  },
+  {
     "objectID": "homework.html",
     "href": "homework.html",
     "title": "BSTT 536: Survival Analysis",

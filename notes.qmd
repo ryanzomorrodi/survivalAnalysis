@@ -1,26 +1,46 @@
 ---
 title: "Notes"
-format:
-  dashboard:
-    orientation: columns
-    css: styles.css
 engine: knitr
 ---
 
-# Intro
+## Basic Definitions
 
-**Survival analysis** is a collection of statistical procedures where the outcome variable is time to a well-defined event.
+**Survival analysis** - a collection of statistical procedures where the outcome variable is time to a well-defined event.
 
-### Concerns
+**Time to event** $T$
 
-#### Censoring
+**Distribution of time to event** $F(t)$
 
-####  
+$F(t) = P(T \le t)$
 
-Let $T$ denote the time to event.
+**Density of this distribution** $f(t)$
 
-$$
-F(t) = P(T \le t)
-$$
+$f(t) = \frac{d F(t)}{d t}$
 
-It is often more convenient to work with the survival analysis function defined as
+**Survival function** $S(t)$ - the probability of surviving
+
+$S(t) = P(T > t) = 1 - F(t)$
+
+**Hazard density** $h(t)$ - the rate of failure probability change at time $t$ given that the subject has not failed at time $t$.
+
+$h(t) = \frac{f(t)}{S(t)}$
+
+**Cumulative hazard** - the accumulated risk of experiencing the event of interest at time $t$
+
+$H(t) = \int^t_0 h(t) dt = -\log S(t)$
+
+## Complications
+
+**Censoring** - when not all participants experience the event during the study period
+
+-   **Right censoring** - participants were not followed long enough to see the event
+
+-   **Left censoring** - event is known to have occurred before the study period
+
+-   **Interval censoring** - event is known to occur in an inexact time interval
+
+**Truncation** - subject selection depending on whether or not the event has occurred
+
+-   **Left truncation** - event is not known to have occurred before the study
+
+-   Right truncation - participants who experience the event are selectively included
