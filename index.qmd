@@ -1,0 +1,33 @@
+---
+author: "Ryan Zomorrodi"
+format:
+  dashboard:
+    orientation: columns
+    css: styles.css
+engine: knitr
+---
+
+
+## Class Info {width=70%}
+
+These are my notes for the Fall 2024 BSST 536 Survival Analysis course with Professor Hua Yun Chen.
+
+## Column {width=30%}
+
+::: {.valuebox icon="calendar-event" color="light"}
+Meeting Time  
+
+[Mondays & Wednesdays 1-2:15pm in SPH 936]()
+:::
+
+::: {.valuebox icon="card-checklist" color="light"}
+Syllabus  
+
+[SyllabusBSTT536for2024.pdf](pdf/SyllabusBSTT536for2024.pdf)
+:::
+
+::: {.valuebox icon="book" color="light"}
+Textbook 
+
+[Modelling Survival Data in Medical Research]()
+:::

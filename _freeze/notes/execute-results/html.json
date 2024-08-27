@@ -1,0 +1,15 @@
+{
+  "hash": "4efa41395f8739b0933643654ec2c872",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Notes\"\nformat:\n  dashboard:\n    orientation: columns\n    css: styles.css\nengine: knitr\n---\n\n\n\n\n# Intro\n\n**Survival analysis** is a collection of statistical procedures where the outcome variable is time to a well-defined event.\n\n### Concerns\n\n#### Censoring\n\n####  \n\nLet $T$ denote the time to event.\n\n$$\nF(t) = P(T \\le t)\n$$\n\nIt is often more convenient to work with the survival analysis function defined as",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,26 @@
+---
+title: "Notes"
+format:
+  dashboard:
+    orientation: columns
+    css: styles.css
+engine: knitr
+---
+
+# Intro
+
+**Survival analysis** is a collection of statistical procedures where the outcome variable is time to a well-defined event.
+
+### Concerns
+
+#### Censoring
+
+####  
+
+Let $T$ denote the time to event.
+
+$$
+F(t) = P(T \le t)
+$$
+
+It is often more convenient to work with the survival analysis function defined as

@@ -1,0 +1,19 @@
+project:
+  type: website
+  resources:
+    - pdf/Homework*.pdf
+
+website:
+  title: "BSTT 536: Survival Analysis"
+  navbar:
+    left:
+      - index.qmd
+      - notes.qmd
+      - homework.qmd
+
+format:
+  html:
+    theme: cosmo
+
+execute:
+  freeze: auto
