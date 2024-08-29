@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ryanzomorrodi.github.io/survivalAnalysis/index.html</loc>
-    <lastmod>2024-08-27T22:33:28.130Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ryanzomorrodi.github.io/survivalAnalysis/homework.html</loc>
-    <lastmod>2024-08-27T22:33:28.130Z</lastmod>
+    <loc>https://ryanzomorrodi.github.io/survivalAnalysis/lectures.html</loc>
+    <lastmod>2024-08-29T15:02:44.564Z</lastmod>
   </url>
   <url>
     <loc>https://ryanzomorrodi.github.io/survivalAnalysis/notes.html</loc>
-    <lastmod>2024-08-27T22:33:28.130Z</lastmod>
+    <lastmod>2024-08-29T15:02:44.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ryanzomorrodi.github.io/survivalAnalysis/homework.html</loc>
+    <lastmod>2024-08-29T15:02:44.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ryanzomorrodi.github.io/survivalAnalysis/index.html</loc>
+    <lastmod>2024-08-29T15:02:44.564Z</lastmod>
   </url>
 </urlset>

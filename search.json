@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "BSTT 536: Survival Analysis",
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
     "section": "",
-    "text": "Homework1.pdf\n\nDue 2024/09/11 11:59pm\n\n\n\n\nHomework2.pdf\n\nDue 2024/09/25 11:59pm\n\n\n\n\nHomework3.pdf\n\nDue 2024/10/09 11:59pm\n\n\n\n\nHomework4.pdf\n\nDue 2024/10/29 11:59pm\n\n\n\n\nHomework5.pdf\n\nDue 2024/11/13 11:59pm\n\n\n\n\n\nDue 2024/11/27 11:59pm"
-  },
-  {
-    "objectID": "homework.html#homework",
-    "href": "homework.html#homework",
-    "title": "BSTT 536: Survival Analysis",
-    "section": "",
-    "text": "Homework1.pdf\n\nDue 2024/09/11 11:59pm\n\n\n\n\nHomework2.pdf\n\nDue 2024/09/25 11:59pm\n\n\n\n\nHomework3.pdf\n\nDue 2024/10/09 11:59pm\n\n\n\n\nHomework4.pdf\n\nDue 2024/10/29 11:59pm\n\n\n\n\nHomework5.pdf\n\nDue 2024/11/13 11:59pm\n\n\n\n\n\nDue 2024/11/27 11:59pm"
+    "text": "Lectures\n\nPart 1\npart1.pdf\n\n\nPart 2\npart2.pdf\n\n\nPart 3\npart3.pdf\n\n\nPart 4\npart4.pdf\n\n\nPart 5\npart5.pdf\n\n\nPart 6\npart6.pdf\n\n\nPart 7\npart7.pdf\n\n\nPart 8\npart8.pdf\n\n\nPart 9\npart9.pdf"
   },
   {
     "objectID": "notes.html",
@@ -33,5 +26,19 @@
     "title": "Notes",
     "section": "Complications",
     "text": "Complications\nCensoring - when not all participants experience the event during the study period\n\nRight censoring - participants were not followed long enough to see the event\nLeft censoring - event is known to have occurred before the study period\nInterval censoring - event is known to occur in an inexact time interval\n\nTruncation - subject selection depending on whether or not the event has occurred\n\nLeft truncation - event is not known to have occurred before the study\nRight truncation - participants who experience the event are selectively included"
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "BSTT 536: Survival Analysis",
+    "section": "",
+    "text": "Homework1.pdf\n\nDue 2024/09/11 11:59pm\n\n\n\n\nHomework2.pdf\n\nDue 2024/09/25 11:59pm\n\n\n\n\nHomework3.pdf\n\nDue 2024/10/09 11:59pm\n\n\n\n\nHomework4.pdf\n\nDue 2024/10/29 11:59pm\n\n\n\n\nHomework5.pdf\n\nDue 2024/11/13 11:59pm\n\n\n\n\n\nDue 2024/11/27 11:59pm"
+  },
+  {
+    "objectID": "homework.html#homework",
+    "href": "homework.html#homework",
+    "title": "BSTT 536: Survival Analysis",
+    "section": "",
+    "text": "Homework1.pdf\n\nDue 2024/09/11 11:59pm\n\n\n\n\nHomework2.pdf\n\nDue 2024/09/25 11:59pm\n\n\n\n\nHomework3.pdf\n\nDue 2024/10/09 11:59pm\n\n\n\n\nHomework4.pdf\n\nDue 2024/10/29 11:59pm\n\n\n\n\nHomework5.pdf\n\nDue 2024/11/13 11:59pm\n\n\n\n\n\nDue 2024/11/27 11:59pm"
   }
 ]
