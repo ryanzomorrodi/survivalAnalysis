@@ -43,4 +43,4 @@ $H(t) = \int^t_0 h(t) dt = -\log S(t)$
 
 -   **Left truncation** - event is not known to have occurred before the study
 
--   Right truncation - participants who experience the event are selectively included
+-   **Right truncation** - participants who experience the event are selectively included

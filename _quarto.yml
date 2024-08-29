@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - pdf/Homework*.pdf
+    - pdf/part*.pdf
 
 website:
   title: "BSTT 536: Survival Analysis"
@@ -10,6 +11,7 @@ website:
       - index.qmd
       - notes.qmd
       - homework.qmd
+      - lectures.qmd
 
 format:
   html:
