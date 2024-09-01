@@ -3,9 +3,7 @@
   "result": {
     "engine": "knitr",
     "markdown": "---\nauthor: \"Ryan Zomorrodi\"\nformat:\n  dashboard:\n    orientation: columns\n    css: styles.css\nengine: knitr\n---\n\n\n\n\n\n## Class Info {width=70%}\n\nThese are my notes for the Fall 2024 BSST 536 Survival Analysis course with Professor Hua Yun Chen.\n\n## Column {width=30%}\n\n::: {.valuebox icon=\"calendar-event\" color=\"light\"}\nMeeting Time  \n\n[Mondays & Wednesdays 1-2:15pm in SPH 936]()\n:::\n\n::: {.valuebox icon=\"card-checklist\" color=\"light\"}\nSyllabus  \n\n[SyllabusBSTT536for2024.pdf](pdf/SyllabusBSTT536for2024.pdf)\n:::\n\n::: {.valuebox icon=\"book\" color=\"light\"}\nTextbook \n\n[Modelling Survival Data in Medical Research]()\n:::",
-    "supporting": [
-      "index_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
