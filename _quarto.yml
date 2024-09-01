@@ -9,9 +9,9 @@ website:
   navbar:
     left:
       - index.qmd
-      - notes.qmd
-      - homework.qmd
       - lectures.qmd
+      - homework.qmd
+      - notes.qmd
 
 format:
   html:
